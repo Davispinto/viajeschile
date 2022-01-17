@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es"> 
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mi Portafolio Web</title> 
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+      <!--font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <!--font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;-->
+      <!--google font tipografia-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+  <!--Bootstrap en linea 5.1.3-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!--Mi estilo-->
+  <link rel="stylesheet" href="assets/css/style.css"> 
+
+</head>
+
+<body>
+
+<!--Navbar-->
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <img src="assets/img/viajes.svg" width="40px" height="40px">
+    <a class="navbar-brand" href="#">Viajes Chile</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#sobre_mi">Inicio</a>
+          </li> 
+
+          <li class="nav-item">
+            <a class="nav-link" href="#quienes_somos">Quienes Somos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#destacados">Destacados</a>
+          </li> 
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+  </div>
+</nav>
+
+   <!--header setion-->
+
+<header>   
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="llama">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="moai">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="pinguino">
+        </div>
+      </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+    <header>
+
+
+   <!-- ¿Quienes Somos?-->
+
+<section id="quienes_somos" class="pt-5 container d-none d-sm-block">
+  <div>
+    <h4 class="text-center fw-bold">¿Quienes Somos?</h4>
+    <hr class="opacity-100 mx-auto">
+  </div>
+
+ <div class="row pt-3">
+
+  <div class="col-4">
+    <div class="card-header text-center">
+      <i class="fas fa-plane iconos" data-bs-toggle="tooltip" data-bs-placement="top" title="Viajes"></i>
+    </div>
+    <div>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div> 
+  </div>
+
+  <div class="col-4">
+    <div>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div> 
+    <div class="card-header text-center">
+      <i class="fas fa-mountain" data-bs-toggle="tooltip" data-bs-placement="top" title="Montaña"></i>
+    </div>
+  </div>
+
+    <div class="col-4">
+    <div class="card-header text-center">
+      <i class="fas fa-route" data-bs-toggle="tooltip" data-bs-placement="top" title="Rutas"></i>
+    </div>
+    <div>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div> 
+  </div>
+
+
+</div>
+</section>
+<br>
+
+   <!--Destacados-->
+
+<section id="destacados" class="py-5 container">
+
+  <div>
+    <h4 class="text-center fw-bold">Destacados</h4>
+    <hr class="opacity-100 mx-auto">
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div class="col-12 col-sm-3 my-3">
+        <div class="card border-1 zoom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="assets/img/card1.jpg" class="card-img-top" height="200px" alt="rios">
+          <div class="card-body">
+            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+            <p class="card-text fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sre et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-3 my-3">
+        <div class="card border-1 zoom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="assets/img/card2.jpg" class="card-img-top"  height="200px"  alt="montañas">
+          <div class="card-body">
+            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+            <p class="card-text fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sre et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-3 my-3">
+        <div class="card border-1 zoom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="assets/img/card3.jpg" class="card-img-top" height="200px" alt="lago">
+          <div class="card-body">
+            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+            <p class="card-text fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sre et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-12 col-sm-3 my-3">
+        <div class="card border-1 zoom" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <img src="assets/img/card4.jpg" class="card-img-top" height="200px" alt="bosque">
+          <div class="card-body">
+            <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+            <p class="card-text fw-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sre et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+  </div>
+</section>
+
+  <!--contacto-->
+
+<section id="contacto" class="container text-center py-5">
+  <div>
+    <h4 class="text-center fw-bold">Contacto</h4>
+    <hr class="opacity-100 mx-auto">
+  </div>
+
+  <div>    
+   
+
+  </div>
+
+</section>
+
+  <!--footer-->
+
+<footer id="footer" class="text-center text-white py-3">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6">
+        <a href="#"><h1 class="fw-bold text-uppercase">Viajes Chile</h1></a>
+      </div>
+
+      <div class="col-12 col-sm-6">
+        <a href="https://github.com" target="_blank"><i class="fab fa-github fa-3x mx-2"></i></a>
+        <a href="https://www.linkedin.com/home" target="_blank"><i class="fab fa-linkedin-in fa-3x mx-2"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter fa-3x mx-2"></i></a>
+        <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank"><i class="fab fa-facebook fa-3x mx-2"></i></a>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <!--poopers js 2.10.2-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
+  <!--bootstrap 5.1.3-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+   <!--cdn jquery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script src="assets/js/script.js"></script>
+</body> 
+</html>
