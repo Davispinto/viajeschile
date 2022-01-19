@@ -3,18 +3,24 @@
 $(document).ready(function () {
 
   $("a").click(function () {
-  var gato = this.hash
+  var movimiento = this.hash
 
   $ ("html, body").animate(
   {
-    scrollTop: $(gato).offset().top -70
+    scrollTop: $(movimiento).offset().top -70
   },
-800
+1500
 )
 
   })
 
+  $('.card-title').click(function () {
+  $('.card-text').toggle();
   })
+
+  })
+
+
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {

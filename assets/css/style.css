@@ -3,13 +3,12 @@ html
 	scroll-behavior: auto !important; 
 }
 
-/*navbar*/
 body
 {
 	padding: 0px !important;
 	margin: 0px !important;
 	font-family: Helvetica;
-	background-color: #000000 !important;
+	background-color: #000000;
 	color: #ffffff;
 }
 
@@ -19,7 +18,7 @@ body
 {
 	position: fixed;
 	width: 100vw;
-	z-index: 1;
+	z-index: 999;
 }
 
 .navbar-brand
@@ -35,6 +34,8 @@ body
   background-size: cover;
 }
 
+/*tarjetas*/
+
 .card-body
 {
 	background-color: #43BCCD !important;
@@ -46,7 +47,6 @@ body
 	color: #ffffff;
 }
 
-
 /*iconos*/
 .card-header
 {
@@ -54,35 +54,10 @@ body
 	color: #ffffff !important;
 }
 
-
 /*seccion sobre mi color, tipo e interlineado*/
-
-#sobre_mi
-{
-	color: #373a3c;
-	font-family: ¨Open Sans¨;
-	line-height: 3;
-}
-
-
-/*seccion destacados*/
-
-
-#destacados
-{
-
-}
 
 #destacados h2
 {
-	font-size: 52px;
-}
-
-/*contacto*/
-
-#contacto h1
-{
-	font-family: "Oswald";
 	font-size: 52px;
 }
 
@@ -92,14 +67,22 @@ body
 	background-color: #43BCCD;
 }
 
-#footer h1 
-{
-}
-
 #footer a 
 {
 	color: #ffffff;
 	text-decoration: none;
+}
+
+#contactarnos
+{
+	background-color: #ffffff !important;
+	color: #000000;	
+}
+
+span b
+{
+	text-decoration: none !important;
+	color: #000000 !important;
 }
 
 hr
@@ -107,6 +90,7 @@ hr
 	color: #43BCCD;
 }
 
+/*efecto zoom para las tarjetas*/
 .zoom
 {
 	transition: .2s;
