@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
   $("a").click(function () {
@@ -11,7 +9,6 @@ $(document).ready(function () {
   },
 1500
 )
-
   })
 
   $('.card-title').click(function () {
@@ -19,8 +16,6 @@ $(document).ready(function () {
   })
 
   })
-
-
 
 var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
 var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {

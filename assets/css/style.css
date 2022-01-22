@@ -5,10 +5,9 @@ html
 
 body
 {
-	font-family: 'Courier New', Courier, monospace;
 	padding: 0px !important;
 	margin: 0px !important;
-	font-family: Helvetica;
+	font-family: arial !important;
 	background-color: #000000;
 	color: #ffffff;
 }
